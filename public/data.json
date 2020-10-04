@@ -1,0 +1,107 @@
+{
+    "portfolio": [
+        {
+            "title": "School ERP",
+            "type": "Full Stack Development",
+            "image": "./Images/classwise-marks.png",
+            "description": "An ERP system built in Django for schools to manage marks, homework, notices, attendance, fees, student & employee registration. Separate dashboard for students, teachers and administrator.",
+            "cta": {
+                "link": "https://remote-yes.vercel.app",
+                "git": "https://github.com/yashboura303/School_ERP"
+            },
+            "tools": ["Bootstrap", "Javascript", "Django", "Git", "Heroku"]
+        },
+        {
+            "title": "Sknox Website",
+            "type": "Full Stack Development",
+            "image": "./Images/skynox.png",
+            "description": "Implementation of Skynox website built in my current internship, built with NextJS(React Framework)  ",
+            "cta": {
+                "link": "https://skynox.tech/",
+                "git": "https://github.com/vahlcode/webvio-landing-page"
+            },
+            "tools": ["HTML", "CSS", "NextJS", "Netlify", "Git"]
+        },
+        {
+            "title": "MERN Blog",
+            "type": "Full Stack Development",
+            "image": "./Images/mern-blog.png",
+            "description": "A blog website wherein Users can submit blog posts and view blogs written by other users in their feed.Once signed in Users can comment & like each blog. Built using ReactJS at front-end & NodeJS at the back-end and deployed to Heroku.",
+            "cta": {
+                "link": "https://mernbloggingapp.herokuapp.com/",
+                "git": "https://github.com/yashboura303/MERN_BLOG"
+            },
+            "tools": ["Bootstrap", "NodeJS", "ReactJS", "Heroku", "Git"]
+        }
+    ],
+    "skills": {
+        "soft": ["Front-end", "Brand Design", "Communication", "Leadership"],
+        "languages": ["Python", "Javascript", "HTML/CSS"],
+        "tools": ["Git", "Heroku", "Firebase", "Bootstrap"],
+        "lib_framework": ["NodeJS", "ReactJS", "Django", "Flask"]
+    },
+    "experience": [
+        {
+            "company": "Skynox Tech",
+            "start": "Aug 2020",
+            "end": "Present",
+            "role": "Full Stack Intern",
+            "logo": "./Images/skynox-logo.png",
+            "duty": [
+                "Work on NextJS react framework, integrating design and third-party apps \naccording to web development plans.",
+                "Test site compatibility across multiple browsers and devices, uncovering and debugging issues \nand addressing inconsistencies."
+            ]
+        },
+        {
+            "company": "JDMR Ischool Pvt Lmtd",
+            "start": "Dec 2019",
+            "end": "Jan 2019",
+            "role": "Full Stack Intern",
+            "logo": "./Images/jdmir.png",
+            "duty": [
+                "Developed an ERP system from scratch with Django, PostgreSQL & Bootstrap and deployed on \nHeroku for daily analysis.",
+                "Added PDF generation, Excel manipulation and image compression features using various \npython packages",
+                "Built new user-facing features, design, and fixed flaws for existing projects."
+            ]
+        },
+        {
+            "company": "Cppsecrets",
+            "start": "Sept 2019",
+            "end": "Nov 2019",
+            "role": "Software Developer Intern",
+            "logo": "./Images/cppsecrets.png",
+            "duty": [
+                "Developed python projects & automated tools and wrote guide for the same.",
+                "Wrote python articles and algorithms on operating system concepts (threads and semaphores)."
+            ]
+        }
+    ],
+    "volunteer": [
+        {
+            "company": "TSN Africa",
+            "start": 2017,
+            "end": "31 Aug. 2020",
+            "role": "Front-end Web Developer and Graphic Designer",
+            "logo": "./Images/TSN.png",
+            "duty": [
+                "Designed the brand identity.",
+                "Provided technical support to the media and publicity team.",
+                "Ensured that the website is up and running.",
+                "Created and designed the website using WordPress."
+            ]
+        },
+        {
+            "company": "Rubies Of Care and Compassion",
+            "start": 2019,
+            "end": 2020,
+            "role": "Front-end Web Developer and Designer",
+            "logo": "./Images/rocc.jpeg",
+            "duty": [
+                "Designed the brand identity.",
+                "Provided technical support to the media and publicity team.",
+                "Ensured that the website is up and running.",
+                "Created and designed the website using WordPress."
+            ]
+        }
+    ]
+}
