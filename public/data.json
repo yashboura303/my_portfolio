@@ -6,7 +6,7 @@
             "image": "./Images/classwise-marks.png",
             "description": "An ERP system built in Django for schools to manage marks, homework, notices, attendance, fees, student & employee registration. Separate dashboard for students, teachers and administrator.",
             "cta": {
-                "link": "https://remote-yes.vercel.app",
+                "link": null,
                 "git": "https://github.com/yashboura303/School_ERP"
             },
             "tools": ["Bootstrap", "Javascript", "Django", "Git", "Heroku"]
@@ -18,7 +18,7 @@
             "description": "Implementation of Skynox website built in my current internship, built with NextJS(React Framework)  ",
             "cta": {
                 "link": "https://skynox.tech/",
-                "git": "https://github.com/vahlcode/webvio-landing-page"
+                "git": null
             },
             "tools": ["HTML", "CSS", "NextJS", "Netlify", "Git"]
         },

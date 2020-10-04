@@ -8,7 +8,7 @@
     text-align: left;
 }
 
-.drawer>.overlay {
+.drawer > .overlay {
     position: fixed;
     top: 0;
     left: 0;
@@ -20,7 +20,7 @@
     z-index: 10000;
 }
 
-.drawer>.main-content {
+.drawer > .main-content {
     position: fixed;
     left: 0;
     top: 0;
@@ -30,10 +30,10 @@
     background: var(--background-color);
     z-index: 10000;
     overflow: auto;
-    transition: .8s;
+    transition: 0.8s;
 }
 
-.drawer>.main-content>.header>button {
+.drawer > .main-content > .header > button {
     padding: 10px 16px;
     font-size: 20px;
     color: var(--font-color);
@@ -42,41 +42,41 @@
     cursor: pointer;
 }
 
-.drawer>.main-content>.image {
+.drawer > .main-content > .image {
     height: 200px;
     width: 100%;
 }
 
-.drawer>.main-content>.image>img {
+.drawer > .main-content > .image > img {
     height: 100%;
     width: 100%;
     border: none;
 }
 
-.drawer>.main-content>.title {
-    padding: 20px 20px;
+.drawer > .main-content > .title {
+    padding: 5px 20px;
 }
 
-.drawer>.main-content>.title>h3 {
+.drawer > .main-content > .title > h3 {
     font-size: 25px;
     color: var(--heading-color);
 }
 
-.drawer>.main-content>.description {
+.drawer > .main-content > .description {
     padding: 0 20px;
     margin-bottom: 20px;
 }
 
-.drawer>.main-content>.tools {
+.drawer > .main-content > .tools {
     padding: 0 20px;
     margin-bottom: 20px;
 }
 
-.drawer>.main-content>.tools>ul {
+.drawer > .main-content > .tools > ul {
     display: flex;
 }
 
-.drawer>.main-content>.tools li {
+.drawer > .main-content > .tools li {
     color: var(--font-color);
     list-style: none;
     font-size: 11px;
@@ -86,28 +86,28 @@
     margin-right: 10px;
 }
 
-.drawer>.main-content>.tools li:last-of-type {
+.drawer > .main-content > .tools li:last-of-type {
     margin-right: 0;
 }
 
-.drawer>.main-content>.ctas {
+.drawer > .main-content > .ctas {
     padding: 0 20px;
 }
 
-.drawer>.main-content>.ctas>ul {
+.drawer > .main-content > .ctas > ul {
     display: flex;
 }
 
-.drawer>.main-content>.ctas li {
+.drawer > .main-content > .ctas li {
     list-style: none;
     margin-right: 10px;
 }
 
-.drawer>.main-content>.ctas li:last-of-type {
+.drawer > .main-content > .ctas li:last-of-type {
     margin-right: 0;
 }
 
-.drawer>.main-content>.ctas li>a {
+.drawer > .main-content > .ctas li > a {
     display: inline-block;
     border: 2px solid var(--primary-color);
     color: var(--primary-color);
@@ -116,7 +116,7 @@
     text-decoration: none;
 }
 
-.drawer>.main-content>.ctas li>a>span {
+.drawer > .main-content > .ctas li > a > span {
     margin-right: 10px;
 }
 
@@ -130,8 +130,8 @@
         z-index: 9999;
         text-align: left;
     }
-    
-    .drawer>.overlay {
+
+    .drawer > .overlay {
         position: fixed;
         top: 0;
         left: 0;
@@ -142,8 +142,8 @@
         -webkit-filter: opacity(0.9);
         z-index: 10000;
     }
-    
-    .drawer>.main-content {
+
+    .drawer > .main-content {
         position: relative;
         left: 40%;
         top: 0;
@@ -165,8 +165,8 @@
         z-index: 9999;
         text-align: left;
     }
-    
-    .drawer>.overlay {
+
+    .drawer > .overlay {
         position: fixed;
         top: 0;
         left: 0;
@@ -177,8 +177,8 @@
         -webkit-filter: opacity(0.9);
         z-index: 10000;
     }
-    
-    .drawer>.main-content {
+
+    .drawer > .main-content {
         position: relative;
         left: 70%;
         top: 0;
