@@ -15,7 +15,7 @@
             "title": "Sknox Website",
             "type": "Full Stack Development",
             "image": "./Images/skynox.png",
-            "description": "Implementation of Skynox website built in my current internship, built with NextJS(React Framework)  ",
+            "description": "Implementation of Skynox website built in my current internship, built with Gatsby(React Framework)  ",
             "cta": {
                 "link": "https://skynox.tech/",
                 "git": null
