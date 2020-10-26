@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./Hero.css";
 import Photo from "../../Assets/Images/selfff.jpeg";
-// import Photo from "../../Assets/Images/my_pic_animated.png";
+
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 
