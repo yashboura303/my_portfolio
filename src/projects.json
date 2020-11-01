@@ -1,0 +1,11 @@
+{
+    "title": "Shopping Cart (Django)",
+    "type": "Full Stack Development",
+    "image": "./Images/ecommerce.png",
+    "description": "Simple Shopping Cart web app with authentication where user can search available products to buy, add, delete products from the cart. Bootstrap for front end and Django for back-end.",
+    "cta": {
+        "link": "http://yashboura303.pythonanywhere.com/",
+        "git": "https://github.com/yashboura303/E-commerce_Django"
+    },
+    "tools": ["Bootstrap", "Django", "Git"]
+}
