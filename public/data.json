@@ -15,12 +15,12 @@
             "title": "Sknox Website",
             "type": "Full Stack Development",
             "image": "./Images/skynox.png",
-            "description": "Implementation of Skynox website built in my current internship, built with Gatsby(React Framework)  ",
+            "description": "Implemented end to end Skynox website built from scratch in my Skynox internship, built with GatsbyJS(React Framework)  ",
             "cta": {
                 "link": "https://skynox.tech/",
                 "git": null
             },
-            "tools": ["HTML", "CSS", "NextJS", "Netlify", "Git"]
+            "tools": ["HTML/CSS", "GatsbyJS", "Git", "NodeJS"]
         },
         {
             "title": "MERN Blog",
@@ -34,10 +34,21 @@
             "tools": ["Bootstrap", "NodeJS", "ReactJS", "Heroku", "Git"]
         },
         {
-            "title": "E-commerce Website",
+            "title": "Shopping Cart",
+            "type": "Front End Development",
+            "image": "./Images/shopping-cart.jpg",
+            "description": "A CRUD shopping cart web app in ReactJS and Bootstrap implemented using firebase real-time database, authentication and firebase hosting.",
+            "cta": {
+                "link": "https://login-7fed7.web.app/",
+                "git": "https://github.com/yashboura303/firebase-shopping-cart"
+            },
+            "tools": ["Bootstrap", "ReactJS", "Firebase"]
+        },
+        {
+            "title": "Shopping Cart (Django)",
             "type": "Full Stack Development",
             "image": "./Images/ecommerce.png",
-            "description": "Simple Shopping Cart Website with authentication where user can search available products to buy, add, delete products from the cart.Bootstrap for front end and Django for back-end.",
+            "description": "Simple Shopping Cart web app with authentication where user can search available products to buy, add, delete products from the cart. Bootstrap for front end and Django for back-end.",
             "cta": {
                 "link": "http://yashboura303.pythonanywhere.com/",
                 "git": "https://github.com/yashboura303/E-commerce_Django"
@@ -54,13 +65,13 @@
     "experience": [
         {
             "company": "Skynox Tech",
-            "start": "Aug 2020",
-            "end": "Present",
+            "start": "Sep 2020",
+            "end": "Oct 2020",
             "role": "Full Stack Intern",
             "logo": "./Images/skynox-logo.png",
             "duty": [
-                "Work on NextJS react framework, integrating design and third-party apps \naccording to web development plans.",
-                "Test site compatibility across multiple browsers and devices, uncovering and debugging issues \nand addressing inconsistencies."
+                "Developed an end to end web app in the GatsbyJS framework. https://skynox.tech/",
+                "Implemented and maintained two NextJs web apps, uncovering and debugging issues, and addressing inconsistencies."
             ]
         },
         {
@@ -84,34 +95,6 @@
             "duty": [
                 "Developed python projects & automated tools and wrote guide for the same.",
                 "Wrote python articles and algorithms on operating system concepts (threads and semaphores)."
-            ]
-        }
-    ],
-    "volunteer": [
-        {
-            "company": "TSN Africa",
-            "start": 2017,
-            "end": "31 Aug. 2020",
-            "role": "Front-end Web Developer and Graphic Designer",
-            "logo": "./Images/TSN.png",
-            "duty": [
-                "Designed the brand identity.",
-                "Provided technical support to the media and publicity team.",
-                "Ensured that the website is up and running.",
-                "Created and designed the website using WordPress."
-            ]
-        },
-        {
-            "company": "Rubies Of Care and Compassion",
-            "start": 2019,
-            "end": 2020,
-            "role": "Front-end Web Developer and Designer",
-            "logo": "./Images/rocc.jpeg",
-            "duty": [
-                "Designed the brand identity.",
-                "Provided technical support to the media and publicity team.",
-                "Ensured that the website is up and running.",
-                "Created and designed the website using WordPress."
             ]
         }
     ]
