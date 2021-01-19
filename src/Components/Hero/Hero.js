@@ -85,9 +85,9 @@ class Hero extends Component {
                                     </a>
                                 </li>
                             </ul>
-                            <a href="#portfolio">
+                            <a href="#experience">
                                 <span>
-                                    Read About Me{' '}
+                                    More about me{' '}
                                     <span className="icon icon-moonarrow-down2"></span>
                                 </span>
                             </a>
