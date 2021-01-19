@@ -1,9 +1,9 @@
-import React, { Component } from "react";
-import "./Hero.css";
-import Photo from "../../Assets/Images/selfff.jpeg";
+import React, { Component } from 'react';
+import './Hero.css';
+import Photo from '../../Assets/Images/selfff.jpg';
 
-import gsap from "gsap";
-import ScrollTrigger from "gsap/ScrollTrigger";
+import gsap from 'gsap';
+import ScrollTrigger from 'gsap/ScrollTrigger';
 
 gsap.registerPlugin(ScrollTrigger);
 class Hero extends Component {
@@ -18,27 +18,27 @@ class Hero extends Component {
         let TL = gsap
             .timeline({
                 scrollTrigger: {
-                    trigger: ".hero",
-                    start: "top 50%",
-                    end: "bottom top",
-                    toggleActions: "restart none none reset",
+                    trigger: '.hero',
+                    start: 'top 50%',
+                    end: 'bottom top',
+                    toggleActions: 'restart none none reset',
                 },
             })
             .from(
-                ".image>img",
-                { y: 100, opacity: 0, ease: "back", duration: 1 },
-                "<1"
+                '.image>img',
+                { y: 100, opacity: 0, ease: 'back', duration: 1 },
+                '<1'
             )
             .from(
-                ".about>*",
+                '.about>*',
                 {
                     x: -100,
                     opacity: 0,
-                    ease: "back",
+                    ease: 'back',
                     duration: 1,
                     stagger: 0.2,
                 },
-                "<1"
+                '<1'
             );
         TL.pause();
         if (this.state.loaded) {
@@ -56,7 +56,7 @@ class Hero extends Component {
                 <div className="row">
                     <div className="about">
                         <h4 className="compliment">
-                            Hey THERE{" "}
+                            Hey THERE{' '}
                             <span role="img" aria-label="Hi!">
                                 🙂
                             </span>
@@ -87,7 +87,7 @@ class Hero extends Component {
                             </ul>
                             <a href="#portfolio">
                                 <span>
-                                    Read About Me{" "}
+                                    Read About Me{' '}
                                     <span className="icon icon-moonarrow-down2"></span>
                                 </span>
                             </a>

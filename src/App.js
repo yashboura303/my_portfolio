@@ -1,14 +1,14 @@
-import React from "react";
-import "./App.css";
-import Header from "./Components/Header/Header";
-import Hero from "./Components/Hero/Hero";
-import Experience from "./Components/Experience/Experience";
-import Skills from "./Components/Skills/Skills";
-import Portfolio from "./Components/Portfolio/Portfolio";
-import Footer from "./Components/Footer/Footer";
-import { Drawer } from "./Components/Drawer/Drawer";
-import Preloader from "./Components/Preloader/Preloader";
-import "./Assets/Icons/icon.css";
+import React from 'react';
+import './App.css';
+import Header from './Components/Header/Header';
+import Hero from './Components/Hero/Hero';
+import Experience from './Components/Experience/Experience';
+import Skills from './Components/Skills/Skills';
+import Portfolio from './Components/Portfolio/Portfolio';
+import Footer from './Components/Footer/Footer';
+import { Drawer } from './Components/Drawer/Drawer';
+import Preloader from './Components/Preloader/Preloader';
+import './Assets/Icons/icon.css';
 
 class App extends React.Component {
     constructor() {
@@ -26,54 +26,54 @@ class App extends React.Component {
         //Updating themes once component mounts
         this.updateTheme();
 
-        const body = document.querySelector("body");
-        const root = document.querySelector("#root");
-        const drawer = document.querySelector(".drawer");
+        const body = document.querySelector('body');
+        const root = document.querySelector('#root');
+        const drawer = document.querySelector('.drawer');
 
         // Disabling scroll until elements are fully loaded
         document.onreadystatechange = () => {
-            if (document.readyState !== "complete") {
+            if (document.readyState !== 'complete') {
                 this.setState({ ...this.state, loaded: false }, () => {
-                    body.style.overflow = "hidden";
-                    root.style.overflow = "hidden";
+                    body.style.overflow = 'hidden';
+                    root.style.overflow = 'hidden';
                 });
             } else {
                 this.setState({ ...this.state, loaded: true }, () => {
-                    body.style.overflow = "auto";
-                    root.style.overflow = "auto";
-                    drawer.style.display = "none";
+                    body.style.overflow = 'auto';
+                    root.style.overflow = 'auto';
+                    drawer.style.display = 'none';
                 });
             }
         };
 
         const CLOSE_DRAWER = document.querySelector(
-            ".drawer>.main-content>.header>button"
+            '.drawer>.main-content>.header>button'
         );
 
-        CLOSE_DRAWER.addEventListener("click", () => {
+        CLOSE_DRAWER.addEventListener('click', () => {
             this.setState(
                 {
                     draw: !this.state.draw,
                     drawContent: [],
                 },
                 () => {
-                    body.style.overflow = "auto";
-                    root.style.overflow = "auto";
+                    body.style.overflow = 'auto';
+                    root.style.overflow = 'auto';
                 }
             );
         });
     }
 
     Draw(i) {
-        const body = document.querySelector("body");
-        const root = document.querySelector("#root");
+        const body = document.querySelector('body');
+        const root = document.querySelector('#root');
 
         this.setState({ ...this.state, loaded: false }, () => {
-            body.style.overflow = "hidden";
-            root.style.overflow = "hidden";
+            body.style.overflow = 'hidden';
+            root.style.overflow = 'hidden';
         });
 
-        fetch("./data.json")
+        fetch('./data.json')
             .then(response => response.json())
             .then(data => {
                 this.setState({ ...this.state, loaded: true });
@@ -86,14 +86,14 @@ class App extends React.Component {
     }
 
     updateTheme() {
-        const currentTheme = localStorage.getItem("theme");
+        const currentTheme = localStorage.getItem('theme');
         const toggleSwitch = document.querySelector(
             '.theme-switch input[type="checkbox"]'
         );
 
         if (currentTheme) {
-            document.documentElement.setAttribute("data-theme", currentTheme);
-            if (currentTheme === "light") {
+            document.documentElement.setAttribute('data-theme', currentTheme);
+            if (currentTheme === 'light') {
                 toggleSwitch.checked = true;
             }
         }
@@ -105,12 +105,12 @@ class App extends React.Component {
             <div className="App">
                 <Header />
                 <Hero loaded={loaded} />
+                <Experience heading="My Experience" />
                 <Portfolio
                     heading="My Works"
                     paragraph="These are some of the projects I've done in the past."
                     draw={this.Draw}
                 />
-                <Experience heading="My Experience" />
                 <Skills />
                 <Footer />
                 <Drawer content={drawContent} draw={draw} />

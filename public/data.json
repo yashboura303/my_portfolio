@@ -9,7 +9,13 @@
                 "link": null,
                 "git": "https://github.com/yashboura303/School_ERP"
             },
-            "tools": ["Bootstrap", "Javascript", "Django", "Git", "Heroku"]
+            "tools": [
+                "Bootstrap",
+                "Javascript",
+                "Django",
+                "Git",
+                "Heroku"
+            ]
         },
         {
             "title": "Sknox Website",
@@ -20,7 +26,12 @@
                 "link": "https://skynox.tech/",
                 "git": null
             },
-            "tools": ["HTML/CSS", "GatsbyJS", "Git", "NodeJS"]
+            "tools": [
+                "HTML/CSS",
+                "GatsbyJS",
+                "Git",
+                "NodeJS"
+            ]
         },
         {
             "title": "MERN Blog",
@@ -31,7 +42,13 @@
                 "link": "https://mernbloggingapp.herokuapp.com/",
                 "git": "https://github.com/yashboura303/MERN_BLOG"
             },
-            "tools": ["Bootstrap", "NodeJS", "ReactJS", "Heroku", "Git"]
+            "tools": [
+                "Bootstrap",
+                "NodeJS",
+                "ReactJS",
+                "Heroku",
+                "Git"
+            ]
         },
         {
             "title": "Shopping Cart",
@@ -42,16 +59,51 @@
                 "link": "https://login-7fed7.web.app/",
                 "git": "https://github.com/yashboura303/firebase-shopping-cart"
             },
-            "tools": ["Bootstrap", "ReactJS", "Firebase"]
+            "tools": [
+                "Bootstrap",
+                "ReactJS",
+                "Firebase"
+            ]
         }
     ],
     "skills": {
-        "soft": ["Front-end", "Brand Design", "Communication", "Leadership"],
-        "languages": ["Python", "Javascript", "HTML/CSS"],
-        "tools": ["Git", "Heroku", "Firebase", "Bootstrap"],
-        "lib_framework": ["NodeJS", "ReactJS", "Django", "Flask"]
+        "soft": [
+            "Front-end",
+            "Brand Design",
+            "Communication",
+            "Leadership"
+        ],
+        "languages": [
+            "Python",
+            "Javascript",
+            "HTML/CSS"
+        ],
+        "tools": [
+            "Git",
+            "Heroku",
+            "Firebase",
+            "Bootstrap"
+        ],
+        "lib_framework": [
+            "NodeJS",
+            "ReactJS",
+            "Django",
+            "Flask"
+        ]
     },
     "experience": [
+        {
+            "company": "Skynox Tech",
+            "start": "Sep 2020",
+            "end": "Nov 2020",
+            "role": "Full Stack Intern",
+            "logo": "./Images/creesync.png",
+            "duty": [
+                "Added clevertap and google analytics events to the PWA.",
+                "Integrated Razorpay's saving card details feature for the checkout.",
+                "Managed backend for handling promotional coupons."
+            ]
+        },
         {
             "company": "Skynox Tech",
             "start": "Sep 2020",
