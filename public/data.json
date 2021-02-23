@@ -18,22 +18,6 @@
             ]
         },
         {
-            "title": "Sknox Website",
-            "type": "Full Stack Development",
-            "image": "./Images/skynox.png",
-            "description": "Implemented end to end Skynox website built from scratch in my Skynox internship, built with GatsbyJS(React Framework)  ",
-            "cta": {
-                "link": "https://skynox.tech/",
-                "git": null
-            },
-            "tools": [
-                "HTML/CSS",
-                "GatsbyJS",
-                "Git",
-                "NodeJS"
-            ]
-        },
-        {
             "title": "MERN Blog",
             "type": "Full Stack Development",
             "image": "./Images/mern-blog.png",
@@ -48,6 +32,38 @@
                 "ReactJS",
                 "Heroku",
                 "Git"
+            ]
+        },
+        {
+            "title": "Recollections",
+            "type": "Full Stack Development",
+            "image": "./Images/recollection.png",
+            "description": "Simple social media app that allows users to share their memories with images and descriptions. It has user authentication via email(JWT) and Google OAuth",
+            "cta": {
+                "link": "https://project-recollection.netlify.app/",
+                "git": "https://github.com/yashboura303/Recollection"
+            },
+            "tools": [
+                "Material UI",
+                "NodeJS",
+                "ReactJS",
+                "Git"
+            ]
+        },
+        {
+            "title": "Sknox Website",
+            "type": "Full Stack Development",
+            "image": "./Images/skynox.png",
+            "description": "Implemented end to end Skynox website built from scratch during my internship at Skynox. It is built with GatsbyJS(React Framework)  ",
+            "cta": {
+                "link": "https://skynox.tech/",
+                "git": null
+            },
+            "tools": [
+                "HTML/CSS",
+                "GatsbyJS",
+                "Git",
+                "NodeJS"
             ]
         },
         {
