@@ -51,7 +51,7 @@
             ]
         },
         {
-            "title": "Sknox Website",
+            "title": "Skynox Website",
             "type": "Full Stack Development",
             "image": "./Images/skynox.png",
             "description": "Implemented end to end Skynox website built from scratch during my internship at Skynox. It is built with GatsbyJS(React Framework)  ",
@@ -109,7 +109,7 @@
     },
     "experience": [
         {
-            "company": "Skynox Tech",
+            "company": "Creesync",
             "start": "Sep 2020",
             "end": "Nov 2020",
             "role": "Full Stack Intern",
