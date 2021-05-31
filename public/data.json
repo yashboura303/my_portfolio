@@ -1,6 +1,38 @@
 {
     "portfolio": [
         {
+            "title": "My-Planner",
+            "type": "Full Stack Development",
+            "image": "./Images/myPlanner.png",
+            "description": "myPlanner is a task planner web app with google auth wherein you can drag n drop tasks & subtasks, add multiple boards and write a description using markdown",
+            "cta": {
+                "link": "https://myplanner-project.netlify.app/",
+                "git": "https://github.com/yashboura303/myPlanner"
+            },
+            "tools": [
+                "ReactJS",
+                "FireBase",
+                "TaiTailwindCSS"
+            ]
+        },
+        {
+            "title": "MERN Blog",
+            "type": "Full Stack Development",
+            "image": "./Images/mern-blog.png",
+            "description": "A blog website wherein users can submit blog posts and view blogs written by other users in their feed. Once signed in Users can comment & like each blog. Built using ReactJS at front-end & NodeJS at the back-end and deployed to Heroku.",
+            "cta": {
+                "link": "https://mernbloggingapp.herokuapp.com/",
+                "git": "https://github.com/yashboura303/MERN_BLOG"
+            },
+            "tools": [
+                "Bootstrap",
+                "NodeJS",
+                "ReactJS",
+                "Heroku",
+                "Git"
+            ]
+        },
+        {
             "title": "School ERP",
             "type": "Full Stack Development",
             "image": "./Images/classwise-marks.png",
@@ -13,25 +45,7 @@
                 "Bootstrap",
                 "Javascript",
                 "Django",
-                "Git",
                 "Heroku"
-            ]
-        },
-        {
-            "title": "MERN Blog",
-            "type": "Full Stack Development",
-            "image": "./Images/mern-blog.png",
-            "description": "A blog website wherein Users can submit blog posts and view blogs written by other users in their feed.Once signed in Users can comment & like each blog. Built using ReactJS at front-end & NodeJS at the back-end and deployed to Heroku.",
-            "cta": {
-                "link": "https://mernbloggingapp.herokuapp.com/",
-                "git": "https://github.com/yashboura303/MERN_BLOG"
-            },
-            "tools": [
-                "Bootstrap",
-                "NodeJS",
-                "ReactJS",
-                "Heroku",
-                "Git"
             ]
         },
         {
@@ -46,8 +60,7 @@
             "tools": [
                 "Material UI",
                 "NodeJS",
-                "ReactJS",
-                "Git"
+                "ReactJS"
             ]
         },
         {
@@ -62,7 +75,6 @@
             "tools": [
                 "HTML/CSS",
                 "GatsbyJS",
-                "Git",
                 "NodeJS"
             ]
         },
@@ -97,8 +109,7 @@
         "tools": [
             "Git",
             "Heroku",
-            "Firebase",
-            "Bootstrap"
+            "Firebase"
         ],
         "lib_framework": [
             "NodeJS",
